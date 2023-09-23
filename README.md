@@ -1,5 +1,12 @@
 # kelp
 
+1. Data Folder contains files in python to generate fake data.
+2. CSV File Pathn in env file
+3. DataBase Connection Details in env File for security purposes
+4. Different Routes for each function
+
+
+# ScreenShots
 ## Landing Page
 <img src="https://github.com/bhavya092/kelp/blob/main/screenshots/index.png">
 
