@@ -19,12 +19,12 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // |+++++++++++++++++ DATABASE CONNECTION +++++++++++++++++++|
 const Pool = require('pg').Pool;
 const pool = new Pool({
-	user: 'postgres',
-	host: 'localhost',
-	database: 'userdata',
-	password: 'root',
-	dialect: 'postgres',
-	port: 5432
+	user: DB_USER,
+	host: DB_HOST,
+	database: DB_DATABASE,
+	password: DB_PASSWORD,
+	dialect: DB_DIALECT,
+	port: DB_PORT
 });
 
 pool.connect((err, client, release) => {
