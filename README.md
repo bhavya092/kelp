@@ -4,6 +4,7 @@
 2. CSV File Pathn in env file
 3. DataBase Connection Details in env File for security purposes
 4. Different Routes for each function
+5. .env and node modules uploaded for reference. (should be added in .gitignore)
 
 
 # ScreenShots
